@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
-        <a href="">WebStudio</a>
+        <a href=""class="header-logo">WebStudio</a>
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-list-item"><a href="index.html">Студія</a></li>
@@ -21,37 +26,47 @@
         </ul>
     </header>
     <main>
-        <section>
-            <h1>
+        <section class="hero">
+            <h1 class="hero-title">
                 ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО
                 БІЗНЕСУ
             </h1>
-            <button>Замовити послугу</button>
+            <button  class="hero-btn">Замовити послугу</button>
         </section>
         <section class="features">
             <ul class="features-list">
                 <li class="features-list-item">
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <h3  class="features-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="features-list-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                    <h3  class="features-list-title">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="features-list-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <section>
-                        <h2>Чим ми займаємося</h2>                    
-                            <ul>
-                                <li>
-                                    <img src="" alt="">
+                    <h3 class="features-list-title">ПЛАНУВАННЯ</h3>
+                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li>
+                    <h3  class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
+                    </ul>
+                    </section>
+                    
+                    <section class="work-section">
+                        <h3 class="work-section-title">Чим ми займаємося</h3>                    
+                            <ul class="work-list">
+                                <li class="work-list-item">
+                                    <img class="work-list-img" src="" alt="">
                                 </li>
-                                <li>
-                                    <img src="" alt="">
+                                <li class="work-list-item">
+                                    <img class="work-list-img"  src="" alt="">
                                 </li>
-                                <li>
-                                    <img src="" alt="">
+                                <li class="work-list-item">
+                                    <img class="work-list-img" src="" alt="">
                                 </li>
+                                
                             </ul>
                     </section>
                     <section>
@@ -81,13 +96,13 @@
                             </ul>
                         </section>
     </main>
-    <footer>
-        <a href="">WebStudio</a>
-        <address>
-         <ul>
-            <li><a href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+    <footer class="footer">
+        <a class="footer-logo" href="">WebStudio</a>
+        <address class="address">
+         <ul class="address-list" >
+            <li class="address-list-item"><a class="address-list-link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="address-list-item"><a class="address-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="address-list-item"><a class="address-list-link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
          </ul>
         </address>
     </footer>
